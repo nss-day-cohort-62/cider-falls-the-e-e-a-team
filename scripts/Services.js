@@ -1,1 +1,1 @@
-import { getServices } from "./database.js" 
+import { getServices } from "./database.js"

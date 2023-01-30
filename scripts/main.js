@@ -18,7 +18,6 @@ const applicationHTML = `
         ${Parks()}
     </section>
 </article>
-
 <article class="services">
     <h2>Services</h2>
     ${Services()}
