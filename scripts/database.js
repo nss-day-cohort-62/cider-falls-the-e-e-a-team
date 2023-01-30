@@ -123,3 +123,15 @@ const database = {
 
     }]
 }
+
+export const getGuests = () => {
+    return database.guests.map(guest => ({...guest}))
+}
+
+export const getServices = () => {
+    return database.services.map(service => ({...service}))
+}
+
+export const getParks = () => {
+    return database.parks.map(park => ({...park}))
+}
