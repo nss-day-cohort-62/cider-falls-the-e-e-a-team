@@ -31,13 +31,13 @@ const parks = getParks()
 const service = getServices()
 
 export const Services = () => {
-    let html = "<ul>"
+    let html = ""
 
     for (const services of service) {
-        html += `<li id="service--${services.id}">${services.name}</li>`
+        html += `<div class="serviceList" id="service--${services.id}">${services.name}</div>`
     }
 
-    html += "</ul>"
+    //html += "</ul>"
 
     return html
 }
