@@ -1,16 +1,83 @@
-.details {
+#container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#title {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.parksAndGuests {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .detail--column {
-    flex-basis: 24%;
-    margin: 0 2rem;
+    display: inline-block;
+    margin: 1rem 2rem;
     padding: 1rem;
     border: 1px dotted goldenrod;
+} 
+
+
+
+h2 {
+    text-align: center;
+    width: 100%;
 }
 
-.orders {
-    font-size: 20rem;
+.services {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+
+}
+
+
+.serviceList {
+    display: flex;
+    justify-content: space-evenly;
+    width: 13.66%;
+    padding: 5px
+    
+  
+}
+
+.parkList {
+    width: 33%
+}
+
+
+
+
+aside {
+        /* float: right; */
+        margin-right: 20px;
+        align-items: center;
+    }
+    
+
+
+.details__parks {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+}
+
+footer {
+    margin: 80px;
+    text-align: center;
 }

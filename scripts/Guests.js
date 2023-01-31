@@ -3,11 +3,11 @@ import { getGuests } from "./database.js";
 const guestList = getGuests()
 
 export const Guests = () => {
-    let html = "<ul>"
+    let html = ""
     for (const guestObj of guestList) {
-        html += `<li id="guest--${guestObj.id}">${guestObj.name}</li>`
+        html += `<div id="guest--${guestObj.id}">${guestObj.name}</div>`
     }
-    html += "</ul>"
+    
     return html
 }
 

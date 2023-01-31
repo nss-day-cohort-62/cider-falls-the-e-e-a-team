@@ -6,23 +6,26 @@ import { Parks } from "./Parks.js"
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
-<h1>Cedar Falls Park</h1>
 <article class="details">
-    <section class="detail--column list details__guests">
-        <h2>Guests</h2>
-        ${Guests()}
-        
-    </section>
-    <section class="detail--column list details__parkss">
-        <h2>Parks</h2>
-        ${Parks()}
-        
-    </section>
-</article>
-<article class="services">
-    <h2>Services</h2>
+    
+    <section class="services"> 
+    <h2>Services</h2>  
        ${Services()}
-</article>
+       </section>
+       
+    <article class="parksAndGuests">
+   
+    <section class="detail--column list details__parks">
+    <h2>Parks</h2>
+        ${Parks()}
+        </section>
+        
+        <aside class="detail--column list details__guests">
+        <h2>Guests</h2>
+        ${Guests()}      
+        </aside>
+    </article>
+    </article>
 `
 
 mainContainer.innerHTML = applicationHTML

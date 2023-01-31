@@ -30,8 +30,7 @@ document.addEventListener(
 export const Parks = () => {
     let html = ""
     for (const park of parkList) {
-        html += `<div id="park--${park.id}">${park.name}`
+        html += `<div class="parkList" id="park--${park.id}">${park.name}</div>`
     }
-    html += "</div>"
     return html
 }
