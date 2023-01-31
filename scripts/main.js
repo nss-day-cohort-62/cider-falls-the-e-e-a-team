@@ -3,7 +3,6 @@ import { Services } from "./Services.js"
 import { Parks } from "./Parks.js"
 
 
-
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
@@ -20,7 +19,7 @@ const applicationHTML = `
 </article>
 <article class="services">
     <h2>Services</h2>
-    ${Services()}
+       ${Services()}
 </article>
 `
 
