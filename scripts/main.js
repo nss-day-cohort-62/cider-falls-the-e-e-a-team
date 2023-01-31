@@ -16,7 +16,7 @@ const applicationHTML = `
     </section>
     <section class="detail--column list details__parkss">
         <h2>Parks</h2>
-        ${Parks{}}
+        ${Parks()}
         
     </section>
 </article>
