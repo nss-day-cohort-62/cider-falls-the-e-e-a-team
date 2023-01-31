@@ -21,7 +21,7 @@ document.addEventListener(
                             matchingParks.push(park.name)
                     }
                 }
-                window.alert(`This ${matchingService.name} service is supported by these ${matchingParks.join(", ")}`)
+                window.alert(`This ${matchingService.name} service is supported by these ${matchingParks.join(", ")} parks`)
             }
             
     }  
