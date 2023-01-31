@@ -89,7 +89,7 @@ const database = {
         id: 1,
         name: "Chamfort River",
         serviceIds: [1, 2, 3],
-        guestIds: [1, 2]
+        guestIds: [1, 2],
 
     }, {
         id: 2,
