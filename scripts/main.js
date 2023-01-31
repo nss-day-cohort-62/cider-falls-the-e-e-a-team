@@ -3,7 +3,6 @@ import { Services } from "./Services.js"
 import { Parks } from "./Parks.js"
 
 
-
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
@@ -16,13 +15,13 @@ const applicationHTML = `
     </section>
     <section class="detail--column list details__parkss">
         <h2>Parks</h2>
-        ${Parks{}}
+        ${Parks()}
         
     </section>
 </article>
 <article class="services">
     <h2>Services</h2>
-    ${Services()}
+       ${Services()}
 </article>
 `
 
