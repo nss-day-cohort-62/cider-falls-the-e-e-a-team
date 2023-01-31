@@ -11,10 +11,12 @@ const applicationHTML = `
     <section class="detail--column list details__guests">
         <h2>Guests</h2>
         ${Guests()}
+        
     </section>
     <section class="detail--column list details__parkss">
         <h2>Parks</h2>
         ${Parks()}
+        
     </section>
 </article>
 <article class="services">
